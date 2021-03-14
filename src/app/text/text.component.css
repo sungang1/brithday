@@ -1,0 +1,8 @@
+.text{
+    color: gray;
+    width: 90%;
+    margin: 5px auto;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
