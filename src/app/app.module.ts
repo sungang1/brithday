@@ -19,7 +19,7 @@ import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzMessageModule } from 'ng-zorro-antd/message';
 import { TextComponent } from './text/text.component';
 
-
+import { NzCarouselModule } from 'ng-zorro-antd/carousel';
 registerLocaleData(zh);
 
 @NgModule({
@@ -39,7 +39,8 @@ registerLocaleData(zh);
     NzModalModule,
     NzInputModule,
     NzIconModule ,
-    NzMessageModule  ],
+    NzMessageModule,
+    NzCarouselModule  ],
   providers: [{ provide: NZ_I18N, useValue: zh_CN }],
   bootstrap: [AppComponent]
 })
